@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffc7ab3e-8840-416b-868d-ba433a585c34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/java/com/riest/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/java/com/riest/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/java/com/riest/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/java/com/riest/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-AccountService-2003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/SeataOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/SeataOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/serviceinterface/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/serviceinterface/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/serviceinterface/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/java/com/riest/service/serviceinterface/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/SeataOrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/SeataOrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/serviceinterface/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/serviceinterface/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/serviceinterface/StorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-OrderService-2001/target/classes/com/riest/service/serviceinterface/StorageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/java/com/riest/controller/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/java/com/riest/controller/StorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/target/classes/com/riest/config/DataSourceProxyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/target/classes/com/riest/config/DataSourceProxyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/target/classes/com/riest/controller/StorageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Alibaba-Seata-StorageService-2002/target/classes/com/riest/controller/StorageController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenjar" />
+        <option name="mavenHome" value="D:/MAVEN/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\MAVEN\apache-maven-3.6.1\conf\riest-study-settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1i0AP2bbvHS7zSkrYmaSJP7NDSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.riest.springcloud.controller" />
+      <recent name="com.riest.springcloud.modal.PayMement" />
+      <recent name="com.riest.springcloud.utils.CommonReturn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringCloudSeata\SpringCloudStudy\Cloud-Alibaba-Seata-StorageService-2002\src\main\resources" />
+      <recent name="D:\SpringCloudSeata\SpringCloudStudy\Cloud-Alibaba-Seata-AccountService-2003\src\main\resources" />
+      <recent name="D:\SpringCloudStudy\Cloud-Alibaba-Seata-AccountService-2003\src\main\java" />
+      <recent name="D:\SpringCloudStudy\Cloud-Alibaba-Seata-StorageService-2002\src\main\java" />
+      <recent name="D:\SpringCloudStudy\Cloud-Alibaba-provider-Payment-9004\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeataAccountApplication">
+    <configuration name="AlibabaNaocosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Cloud-Alibaba-Naocs-Config-3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riest.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.AlibabaNaocosConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Config-Client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.CloudConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Config-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.ConfigCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Cloud-Alibaba-Consumer-Order-84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riest.springclud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springclud.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Consumer-Order-Zookeeper-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-nacos-consumer-83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.ConsumerNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Eureka-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Getway-8888" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.GetWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HytrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Hystrix-Dashboard-90" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.HytrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-Mqtt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.MqttDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Consumer-Order-Consul-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayMementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Provider-Paymement-zookeeper-8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.PayMementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Provider-Paymement-Consul-8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.PaymementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Cloud-Alibaba-provider-Payment-9004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riest.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-provider-Payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Ailibaba-nacos-Payment-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.PaymentNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-Seata-AccountService-2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.SeataAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-Seata-OrderService-2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.SeataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-Seata-OrderService-2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.SeataOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Alibaba-Seata-StorageService-2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.SeataStorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Cloud-Alibaba-Sentinel-Service-8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riest.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.SentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Provider-Stream-RabbitMq-8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.StreamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cloud-Consumer-Stream-RabbitMq-8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riest.springcloud.StreamConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MqttDemoApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+        <item itemvalue="Spring Boot.PaymentApplication (1)" />
+        <item itemvalue="Spring Boot.SentinelApplication" />
+        <item itemvalue="Spring Boot.AlibabaNaocosConfigApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17965367" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@48bb15ae" type="d2cb1801:ServiceModel$ContributorNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="groupByServiceGroups" value="false" />
+          <option name="groupByContributor" value="true" />
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffc7ab3e-8840-416b-868d-ba433a585c34" name="Default Changelist" comment="" />
+      <created>1601034107643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601034107643</updated>
+      <workItem from="1601034109461" duration="18400000" />
+      <workItem from="1601103796075" duration="4165000" />
+      <workItem from="1601108465448" duration="13486000" />
+      <workItem from="1601170322957" duration="96000" />
+      <workItem from="1601170437618" duration="714000" />
+      <workItem from="1601435912638" duration="8135000" />
+      <workItem from="1601454154342" duration="4699000" />
+      <workItem from="1601516415448" duration="2962000" />
+      <workItem from="1601524095214" duration="1419000" />
+      <workItem from="1601545649452" duration="7929000" />
+      <workItem from="1601556047478" duration="1027000" />
+      <workItem from="1601608386877" duration="10123000" />
+      <workItem from="1601623427738" duration="1709000" />
+      <workItem from="1601625183285" duration="4675000" />
+      <workItem from="1601785926860" duration="6968000" />
+      <workItem from="1601810669978" duration="3474000" />
+      <workItem from="1601818044806" duration="371000" />
+      <workItem from="1601871727977" duration="6304000" />
+      <workItem from="1601965700177" duration="3676000" />
+      <workItem from="1602206219203" duration="165000" />
+      <workItem from="1602244345752" duration="1419000" />
+      <workItem from="1602397567102" duration="259000" />
+      <workItem from="1602398023702" duration="4699000" />
+      <workItem from="1602483057627" duration="26000" />
+      <workItem from="1602487022911" duration="26000" />
+      <workItem from="1602583883720" duration="4143000" />
+      <workItem from="1602589286640" duration="644000" />
+      <workItem from="1602617949618" duration="28000" />
+      <workItem from="1603001543103" duration="243000" />
+      <workItem from="1603001826796" duration="9514000" />
+      <workItem from="1603015090722" duration="671000" />
+      <workItem from="1603071312554" duration="90000" />
+      <workItem from="1603075303045" duration="629000" />
+      <workItem from="1603108338508" duration="1088000" />
+      <workItem from="1603161293813" duration="5000" />
+      <workItem from="1603279802029" duration="2314000" />
+      <workItem from="1603311630796" duration="5007000" />
+      <workItem from="1603337709898" duration="2579000" />
+      <workItem from="1603362235246" duration="9416000" />
+      <workItem from="1603417189289" duration="2273000" />
+      <workItem from="1603433188627" duration="6272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Auto_Import" timestamp="1601459142830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1601459142830" />
+    <state x="552" y="179" key="#Inspections" timestamp="1603341296222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603341296222" />
+    <state x="552" y="182" key="#New_CloudFoundry_Connection" timestamp="1601113744222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#New_CloudFoundry_Connection/0.0.1920.1040@0.0.1920.1040" timestamp="1601113744222" />
+    <state x="552" y="182" key="#New_Docker_Connection" timestamp="1601113825709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#New_Docker_Connection/0.0.1920.1040@0.0.1920.1040" timestamp="1601113825709" />
+    <state x="552" y="182" key="#New_Google_App_Engine_Connection" timestamp="1601113770547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#New_Google_App_Engine_Connection/0.0.1920.1040@0.0.1920.1040" timestamp="1601113770547" />
+    <state x="552" y="179" key="#Project_Structure" timestamp="1601787304858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1601787304858" />
+    <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601122892454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601122892454" />
+    <state x="579" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603001839771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603001839771" />
+    <state x="755" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1601810377372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="755" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601810377372" />
+    <state x="889" y="275" key="FileChooserDialogImpl" timestamp="1603419790825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="889" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603419790825" />
+    <state width="1515" height="455" key="GridCell.Tab.0.bottom" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.0.center" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.0.left" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.0.right" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.1.bottom" timestamp="1603438779962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779962" />
+    <state width="1515" height="455" key="GridCell.Tab.1.center" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.1.left" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.1.right" timestamp="1603438779961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779961" />
+    <state width="1515" height="455" key="GridCell.Tab.2.bottom" timestamp="1603438779962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779962" />
+    <state width="1515" height="455" key="GridCell.Tab.2.center" timestamp="1603438779962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779962" />
+    <state width="1515" height="455" key="GridCell.Tab.2.left" timestamp="1603438779962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779962" />
+    <state width="1515" height="455" key="GridCell.Tab.2.right" timestamp="1603438779962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="455" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603438779962" />
+    <state x="540" y="256" key="IDE.errors.dialog" timestamp="1603419146285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603419146285" />
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog" timestamp="1601101338292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601101338292" />
+    <state x="495" y="188" key="Registry" timestamp="1601108441762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="495" y="188" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1601108441762" />
+    <state x="491" y="157" width="1237" height="883" key="SettingsEditor" timestamp="1603418363370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="157" width="1237" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603418363370" />
+    <state x="884" y="297" key="SpringBootCustomization" timestamp="1601788429316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="884" y="297" key="SpringBootCustomization/0.0.1920.1040@0.0.1920.1040" timestamp="1601788429316" />
+    <state x="626" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1603417336540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603417336540" />
+    <state x="567" y="247" width="785" height="546" key="find.popup" timestamp="1601623177667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="247" width="785" height="546" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601623177667" />
+    <state x="565" y="216" key="new project wizard" timestamp="1603335876866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603335876866" />
+    <state x="702" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1601106493388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="155" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601106493388" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603003757301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603003757301" />
+    <state x="661" y="283" key="spring file set editor" timestamp="1601788679417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="283" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1601788679417" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringCloudStudy$MqttDemoApplication.ic" NAME="MqttDemoApplication Coverage Results" MODIFIED="1603006268715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.riest.*</FILTER>
+    </SUITE>
+  </component>
+</project>

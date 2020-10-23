@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Cloud-Hystrix-Dashboard-90" />
+        <module name="Cloud-Commom-Api" />
+        <module name="Cloud-Alibaba-Sentinel-Service-8401" />
+        <module name="Cloud-Config-client-3355" />
+        <module name="Cloud-Alibaba-Consumer-Order-84" />
+        <module name="Cloud-Provider-Stream-RabbitMq-8801" />
+        <module name="Cloud-Consumer-Order-Consul-80" />
+        <module name="Cloud-Config-3344" />
+        <module name="Cloud-Provider-Paymement-zookeeper-8004" />
+        <module name="Cloud-Alibaba-Naocs-Config-3377" />
+        <module name="Cloud-Eureka-7002" />
+        <module name="Cloud-Eureka-7001" />
+        <module name="Cloud-Provider-Hystrix-Paymement-8007" />
+        <module name="Cloud-Alibaba-Seata-AccountService-2003" />
+        <module name="Cloud-Config-Client-3366" />
+        <module name="Cloud-Alibaba-Seata-Order-Service-2001" />
+        <module name="Cloud-Alibaba-provider-Payment-9004" />
+        <module name="Cloud-Getway-8888" />
+        <module name="Cloud-Alibaba-provider-Payment9003" />
+        <module name="Cloud-Consumer-Order-Zookeeper-80" />
+        <module name="SpringBoot-Mqtt" />
+        <module name="Cloud-Ailibaba-nacos-Payment" />
+        <module name="Cloud-Alibaba-Seata-StorageService-2002" />
+        <module name="Cloud-Consumer-Order80" />
+        <module name="Cloud-Provider-Paymement-Consul-8006" />
+        <module name="Cloud-Alibaba-nacos-consumer-83" />
+        <module name="Cloud-Consumer-Hystrix-Order-80" />
+        <module name="Cloud-Ailibaba-nacos-Payment-9002" />
+        <module name="Cloud-Ailibaba-nacos-Payment-9001" />
+        <module name="Cloud-Provider-Payment8002" />
+        <module name="Cloud-Provider-Payment8001" />
+        <module name="Cloud-Consumer-Stream-RabbitMq-8803" />
+        <module name="Cloud-Consumer-Stream-RabbitMq-8802" />
+        <module name="Cloud-Alibaba-Seata-OrderService-2001" />
+        <module name="Cloud-Consumer-Order-OpenFeign-80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cloud-Ailibaba-nacos-Payment" target="8" />
+      <module name="Cloud-Alibaba-Seata-Order-Service-2001" target="8" />
+      <module name="Cloud-Hystrix-Dashboard-9001" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
